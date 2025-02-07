@@ -1,3 +1,4 @@
+# CMake generated files and directories
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -10,3 +11,6 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+# Ignore all files and subdirectories under .thumbs for Isaac Sim
+.thumbs/
