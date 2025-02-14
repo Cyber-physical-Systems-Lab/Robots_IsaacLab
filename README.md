@@ -15,6 +15,10 @@ This repository contains URDF files, mesh files, and USD files for various robot
 2. **Import into Isaac Sim**
    - The `.usd` files in `IsaacUSD/` are intended for direct import into NVIDIA Isaac Sim.
    - Ensure that mesh paths in the URDF and USD files correctly point to `meshes/` or provide an absolute path.
+   - working file path: 
+   ```
+   Robots_IsaacLab/robot_descriptions/IsaacUSD/nova5_robot/
+   ``` 
 
 3. **Pending to Fix Broken Mesh Links**
    - Some URDF files reference meshes that may not be found due to relative path issues.
